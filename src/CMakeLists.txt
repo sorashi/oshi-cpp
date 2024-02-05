@@ -21,8 +21,7 @@ FetchContent_Declare(
 )
 FetchContent_Declare(
         zlib
-        URL https://zlib.net/zlib-1.2.12.tar.gz
-        URL_HASH SHA256=91844808532e5ce316b3c010929493c0244f3d37593afd6de04f71821d5136d9
+        URL https://zlib.net/current/zlib.tar.gz 
 )
 
 # For Windows: Prevent overriding the parent project's compiler/linker settings
